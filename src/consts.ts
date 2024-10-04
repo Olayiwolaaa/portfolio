@@ -1,3 +1,3 @@
-export const SITE_TITLE = "Karaole Olayiwola Muizz"
+export const SITE_TITLE = "Karaole Olayiwola"
 export const SITE_DESCRIPTION =
-  "I've been a front-end developer for 5 years, working mainly with React, TypeScript, Next.js, and many others. Passionate about what I do, I get fully involved in every project, with a particular focus on design."
+  "Experienced Backend Developer with expertise in Laravel and Django, skilled in API Development, Database Optimization, and Python automation. Proven ability to enhance application performance and deliver high-quality solutions."
