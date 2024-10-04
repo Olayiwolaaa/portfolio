@@ -7,18 +7,5 @@ const allBlogPosts = await getCollection("post")
 ---
 
 <article class="flex flex-col gap-4">
-  <SectionTitle>Posts</SectionTitle>
 
-  {
-    allBlogPosts
-      .sort((a, b) => b.data.pubDate.localeCompare(a.data.pubDate))
-      .map((post) => (
-        <PostPreview
-          href={`/post/${post.slug}`}
-          date={post.data.pubDate}
-          title={post.data.title}
-          description={post.data.description}
-        />
-      ))
-  }
 </article>
